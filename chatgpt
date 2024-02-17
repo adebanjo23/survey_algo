@@ -1,0 +1,106 @@
+Certainly! Here's the structured question data list based on the provided information:
+
+```python
+question_data = [
+    ("Do you enjoy solving puzzles, finding patterns, breaking down problems, and figuring things out with data?", [
+        (0.6, 0.25, 0.1, 0.05),  # Very Confident (Data Science heavily favored)
+        (0.4, 0.35, 0.15, 0.1),  # Confident (Data Analytics and Data Science remain strong contenders)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.1, 0.2, 0.35, 0.35),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Can you evaluate arguments and identify faulty logic?", [
+        (0.5, 0.25, 0.15, 0.1),  # Very Confident (Data Science and Data Analytics equally favored)
+        (0.4, 0.3, 0.2, 0.1),  # Confident (Data Analytics slightly preferred)
+        (0.25, 0.25, 0.25, 0.25),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.3, 0.35),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you comfortable working with numbers and formulas?", [
+        (0.4, 0.35, 0.2, 0.05),  # Very Confident (Data Science and Data Analytics favored)
+        (0.3, 0.35, 0.25, 0.1),  # Confident (Data Analytics and Data Science remain strong contenders)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Do you stay persistent and motivated even when faced with difficulties?", [
+        (0.2, 0.2, 0.2, 0.4),  # Very Confident (Important for all data-related careers)
+        (0.2, 0.25, 0.25, 0.3),  # Confident (Data Analytics and Data Engineering slightly favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you comfortable learning from theoretical concepts and textbooks?", [
+        (0.3, 0.3, 0.2, 0.2),  # Very Confident (Important for all data-related careers)
+        (0.25, 0.35, 0.25, 0.2),  # Confident (Data Science and Data Analytics slightly favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Do you notice subtle patterns and discrepancies in data?", [
+        (0.35, 0.4, 0.2, 0.05),  # Very Confident (Data Science and Data Analytics heavily favored)
+        (0.3, 0.35, 0.25, 0.1),  # Confident (Data Analytics and Data Science remain strong contenders)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Can you objectively analyze data and draw unbiased conclusions?", [
+        (0.4, 0.4, 0.15, 0.05),  # Very Confident (Crucial for all data-driven fields)
+        (0.35, 0.35, 0.2, 0.1),  # Confident (Data Science and Data Analytics equally favored)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across
+
+ all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you comfortable working with large datasets and remembering complex information?", [
+        (0.3, 0.3, 0.2, 0.2),  # Very Confident (Important for all data-related careers)
+        (0.25, 0.35, 0.25, 0.15),  # Confident (Data Engineering and Data Analytics favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Can you stay motivated and productive even without constant supervision?", [
+        (0.2, 0.2, 0.2, 0.4),  # Very Confident (Important for all data-related careers)
+        (0.2, 0.25, 0.25, 0.3),  # Confident (Data Engineering and AI slightly favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Can you collaborate effectively with people from diverse backgrounds and skillsets?", [
+        (0.2, 0.2, 0.2, 0.4),  # Very Confident (Important for all data-related careers)
+        (0.2, 0.25, 0.25, 0.3),  # Confident (Data Analytics and Data Engineering slightly favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Do you learn from your mistakes and bounce back stronger?", [
+        (0.2, 0.2, 0.2, 0.4),  # Very Confident (Important for all data-related careers)
+        (0.2, 0.25, 0.25, 0.3),  # Confident (All fields equally favored)
+        (0.2, 0.2, 0.3, 0.3),  # Not Confident (Balanced across all fields)
+        (0.15, 0.2, 0.35, 0.3),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you open to experimenting with different approaches and strategies?", [
+        (0.35, 0.3, 0.2, 0.15),  # Very Confident (Highly correlated with Data Science and Data Analytics)
+        (0.3, 0.35, 0.25, 0.1),  # Confident (Data Science and Data Analytics remain strong contenders)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you comfortable stepping outside your comfort zone and learning new skills?", [
+        (0.35, 0.3, 0.2, 0.15),  # Very Confident (Crucial for all data-related careers)
+        (0.3, 0.35, 0.25, 0.1),  # Confident (All fields equally favored)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Can you ensure the quality and reliability of your work?", [
+        (0.4, 0.4, 0.15, 0.05),  # Very Confident (Crucial for all data-related careers)
+        (0.35, 0.35, 0.2, 0.1),  # Confident (All fields equally favored)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("Are you able to communicate complex technical concepts clearly and concisely?", [
+        (0.35, 0.3, 0.2, 0.15),  # Very Confident (Important for all data-related careers)
+        (0.3, 0.35, 0.25, 0.1),  # Confident (Data Analytics and Data Science might slightly benefit)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering and AI slightly favored)
+    ]),
+    ("How comfortable are you with mathematical concepts, statistics, and calculations?", [
+        (0.4, 0.4, 0.15, 0.05),  # Very Confident (Highly correlated with Data Science, Data Analytics, and AI)
+        (0.35, 0.35, 0.2, 0.1),  # Confident (All fields benefit from strong quantitative skills)
+        (0.25, 0.25, 0.3, 0.2),  # Not Confident (Balanced across all fields)
+        (0.2, 0.2, 0.35, 0.25),  # Not at all Confident (Data Engineering might be slightly favored)
+    ]),
+    ("Have you taken courses in computer science and programming, including languages like Python, R, Java, etc.?", [
+        (0.4, 0.35, 0.2, 0.05),  # Very Confident (Highly correlated with Data Science, Data Analytics, and AI)
+        (0.35, 0.3, 0.25, 0.1),  # Confident (Data Science and Analytics remain strong contenders)
+        (0.25
